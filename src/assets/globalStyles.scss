@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --primary: black;
+  --base-100: #ffe5b4;
+
+  --header-bg-on: white;
+  --header-bg-off: transparent;
+
+  --megamenu-bg: var(--header-bg-on);
+
+  --logo-color: white;
+  --logo-color-on: var(--base-100);
+
+  --nav-link-text: white;
+  --nav-link-text-on: var(--primary);
+  --nav-link-bg: transparent;
+
+  --text-color: white;
+  --tile-1-bg: #ffe5b4;
+  --tile-2-bg: #888;
+  --tile-3-bg: #ffe5b4;
+  --tile-4-bg: #222;
+}
+
+body {
+  background-color: var(--base-100);
+  overflow-x: hidden;
+  font-family: Poppins, "sans-serif;";
+  a {
+    color: var(--primary);
+  }
+}
