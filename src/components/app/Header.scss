@@ -16,6 +16,13 @@ header {
     max-width: 13rem;
     min-width: 8rem;
     z-index: 9999;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 1026px) {
+    nav {
+      display: none;
+    }
   }
 
   nav ul {

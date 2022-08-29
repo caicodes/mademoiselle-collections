@@ -4,7 +4,7 @@ const NavLeft = () => {
       <ul>
         <li>
           <a href="/" className="nav-link">
-            nav-link
+            robe décontractée
           </a>
           <div className="megamenu">
             <ul>
@@ -48,7 +48,7 @@ const NavLeft = () => {
         </li>
         <li>
           <a href="/" className="nav-link">
-            nav-link
+            robe formelle
           </a>
           <div className="megamenu">
             <ul>

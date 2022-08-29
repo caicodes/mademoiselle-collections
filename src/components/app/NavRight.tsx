@@ -4,12 +4,12 @@ const NavRight = () => {
       <ul>
         <li>
           <a href="/" className="nav-link">
-            nav-link
+            robe d'été
           </a>
         </li>
         <li>
           <a href="/" className="nav-link">
-            nav-link
+            meilleurs voeux
           </a>
         </li>
       </ul>
