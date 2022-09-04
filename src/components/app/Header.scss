@@ -11,12 +11,14 @@ header {
   z-index: 999;
 
   .logo {
-    width: 15vw;
+    width: 180px;
     color: var(--logo-color);
     max-width: 13rem;
     min-width: 8rem;
     z-index: 9999;
     margin: auto;
+    position: absolute;
+    left: calc(50% - 90px);
   }
 
   @media only screen and (max-width: 1026px) {
